@@ -1,0 +1,33 @@
+body {
+		background-color: #83b5d6;
+		}
+	h1 {
+		color: #630c15;
+		text-align: center;
+		font-family: cursive;
+		text-shadow: -1px -1px, 1px -1px 0 #000, 1px 1px 0 #000
+		}
+	P {
+		color: purple;
+		font-family: sans-serif;
+		}
+	ul {
+		color: #7d5704;
+		border: 1px solid;
+		}	
+	th, td {
+			border: 1px solid;
+			color: green;
+			}
+	.center {
+  		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+		width: auto;
+		}
+	.container {
+		display: flex;
+		}
+	.in {
+		display: inline;
+		}
