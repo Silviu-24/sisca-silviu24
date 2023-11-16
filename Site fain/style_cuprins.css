@@ -16,6 +16,20 @@ font-size: 25px;
 img{border-radius: 15px;}
 
 body {
-  backdround-color: red;
-  background-image: linear-gradient(to bottom right, white , blue);
+background-image: linear-gradient(to bottom right, white , blue);
 }
+
+.dot {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;}
+
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+  
